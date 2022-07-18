@@ -1,0 +1,261 @@
+*, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightskyblue;
+    width: 100%;
+}
+
+.header .nav-logo {
+    background-image: url(img/nav-logo.png);
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+    margin-left: 10%;
+}
+
+.nav a {
+    display: block;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    color: rgb(46, 42, 42);
+    font: bold 18px/25px Georgia, serif;
+}
+
+.nav a:hover {
+    color: rgb(224, 227, 234);
+    transition: ease-in-out 0.2s;
+}
+
+.nav li {
+    display: inline-block;;
+    padding: 25px;
+}
+.nav ul {
+    list-style-type: none;
+}
+
+/* hero image area */
+
+.hero {
+    background-image: url(img/hero.png);
+    height: 500px;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    border-left: 5px solid #333;
+    border-right: 5px solid #333;
+    
+}
+
+/* main 1 area */
+
+.main-1 {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.main-1-left {
+    width: 50%;
+    text-align: right;
+}
+
+.main-1-left p {
+    font-size: 30px;
+    width: 95%;
+}
+
+.main-1-right {
+    width: 50%;
+}
+
+/* main-box area */
+
+.main-box {
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-box {
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    padding-right: 50px;
+    border: 5px solid lightseagreen;
+    background-color: rgb(77, 116, 116);
+    box-shadow: 5px 5px 15px lightskyblue;
+}
+
+.img-box-left {
+    background-image: url(img/img-box-left.png);
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.left-box p {
+    padding-top: 10px;
+}
+
+.right-box {
+    width: 200px;
+    height: 200px;
+    flex-direction: column;
+    padding-right: 50px;
+    border: 5px solid lightslategrey;
+    background-color: cornsilk;
+    box-shadow: 5px 5px 15px lightskyblue;
+}
+
+.right-box p {
+    padding-top: 10px;
+}
+
+.img-box-right {
+    background-image: url(img/img-box-left.png);
+    background-size: cover;
+    height: 80px;
+    width: 80px;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+.main-box h2, p {
+    padding-left: 10px;
+}
+/* end-main-1 area */
+
+.end-main-1 {
+    display: block;
+    margin: 100px;
+    text-align: center;
+}
+
+.firstname, .lastname {
+    text-align: center;
+    display: inline-block;
+    font: bold 24px/28px arial, sans-serif;
+}
+
+.lastname {
+    color: rgb(72, 181, 249);
+}
+
+/* main-2 area */
+
+.main-2 {
+    margin: 50px auto;
+    display: flex;
+    background-color: rgb(228, 238, 248);
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 50px 0;
+}
+
+.img-left-2 {
+    background-image: url(img/img-left-2.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    opacity: 0.8;
+    margin-right: 100px;
+}
+
+.main-2-right {
+    width: 20%;
+    height: fit-content;
+    padding-top: 30px;
+}
+
+.main-2-right h2 {
+    padding-bottom: 10px;
+}
+
+.main-2-right li p {
+    text-indent: 30px;
+}
+
+.main-2-right li {
+    list-style-type: none;
+}
+
+.main-2-right .more-info {
+    text-decoration: none;
+    color: #000;
+    background-color: lightskyblue;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.main-2-right .more-info:hover {
+    background-color: rgb(113, 172, 209);
+    color: whitesmoke;
+}
+
+/* main-3 area */
+
+.main-3 {
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-3-left {
+    width: 20%;
+    height: fit-content;
+}
+
+.main-3-left h2 {
+    padding-bottom: 10px;
+}
+
+.main-3-left li {
+    list-style-type: none;
+}
+
+.main-3-left li p {
+    text-indent: 30px;
+}
+
+.main-3-left .more-info-3 {
+    text-decoration: none;
+    color: #000;
+    background-color: lightskyblue;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+.main-3-left .more-info-3:hover {
+    background-color: rgb(113, 172, 209);
+    color: whitesmoke;
+}
+
+.img-right-3 {
+    background-image: url(img/img-right-3.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
